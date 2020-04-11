@@ -1,5 +1,5 @@
 # Description
-Bulma conflicts with some Bootstrap classes where prioritising <strong>Bootstrap</strong>.<br>
+<i><strong>Bulma</strong></i> conflicts with some <i><strong>Bootstrap</strong></i> classes where <strong>Bootstrap</strong> is getting the priority.<br>
 Here I've tried to avoid conflicts by uing prefix<i>(es)</i> <i><strong>`"b-"`</strong>.<br></i>
 <strong>bulma.io v0.8.0 | MIT License | <a href="https://github.com/jgthms/bulma"><i>github.com/jgthms/bulma</i></a></strong>
 # Changes
