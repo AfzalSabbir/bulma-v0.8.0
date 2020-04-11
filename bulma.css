@@ -1594,22 +1594,22 @@ a.box:active {
   color: inherit;
 }
 
-.button .icon, .button .icon.is-small, .button .icon.is-medium, .button .icon.is-large {
+.button .b-icon, .button .b-icon.is-small, .button .b-icon.is-medium, .button .b-icon.is-large {
   height: 1.5em;
   width: 1.5em;
 }
 
-.button .icon:first-child:not(:last-child) {
+.button .b-icon:first-child:not(:last-child) {
   margin-left: calc(-0.5em - 1px);
   margin-right: 0.25em;
 }
 
-.button .icon:last-child:not(:first-child) {
+.button .b-icon:last-child:not(:first-child) {
   margin-left: 0.25em;
   margin-right: calc(-0.5em - 1px);
 }
 
-.button .icon:first-child:last-child {
+.button .b-icon:first-child:last-child {
   margin-left: calc(-0.5em - 1px);
   margin-right: calc(-0.5em - 1px);
 }
@@ -3211,7 +3211,7 @@ fieldset[disabled] .button {
   font-size: 1.5rem;
 }
 
-.icon {
+.b-icon {
   align-items: center;
   display: inline-flex;
   justify-content: center;
@@ -3219,17 +3219,17 @@ fieldset[disabled] .button {
   width: 1.5rem;
 }
 
-.icon.is-small {
+.b-icon.is-small {
   height: 1rem;
   width: 1rem;
 }
 
-.icon.is-medium {
+.b-icon.is-medium {
   height: 2rem;
   width: 2rem;
 }
 
-.icon.is-large {
+.b-icon.is-large {
   height: 3rem;
   width: 3rem;
 }
@@ -4075,17 +4075,17 @@ fieldset[disabled] .button {
   font-size: 1.25rem;
 }
 
-.tag:not(body) .icon:first-child:not(:last-child) {
+.tag:not(body) .b-icon:first-child:not(:last-child) {
   margin-left: -0.375em;
   margin-right: 0.1875em;
 }
 
-.tag:not(body) .icon:last-child:not(:first-child) {
+.tag:not(body) .b-icon:last-child:not(:first-child) {
   margin-left: 0.1875em;
   margin-right: -0.375em;
 }
 
-.tag:not(body) .icon:first-child:last-child {
+.tag:not(body) .b-icon:first-child:last-child {
   margin-left: -0.375em;
   margin-right: -0.375em;
 }
@@ -5499,31 +5499,31 @@ fieldset[disabled] .select select:hover {
   text-align: left;
 }
 
-.control.has-icons-left .input:focus ~ .icon,
-.control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon,
-.control.has-icons-right .select:focus ~ .icon {
+.control.has-icons-left .input:focus ~ .b-icon,
+.control.has-icons-left .select:focus ~ .b-icon, .control.has-icons-right .input:focus ~ .b-icon,
+.control.has-icons-right .select:focus ~ .b-icon {
   color: #4a4a4a;
 }
 
-.control.has-icons-left .input.is-small ~ .icon,
-.control.has-icons-left .select.is-small ~ .icon, .control.has-icons-right .input.is-small ~ .icon,
-.control.has-icons-right .select.is-small ~ .icon {
+.control.has-icons-left .input.is-small ~ .b-icon,
+.control.has-icons-left .select.is-small ~ .b-icon, .control.has-icons-right .input.is-small ~ .b-icon,
+.control.has-icons-right .select.is-small ~ .b-icon {
   font-size: 0.75rem;
 }
 
-.control.has-icons-left .input.is-medium ~ .icon,
-.control.has-icons-left .select.is-medium ~ .icon, .control.has-icons-right .input.is-medium ~ .icon,
-.control.has-icons-right .select.is-medium ~ .icon {
+.control.has-icons-left .input.is-medium ~ .b-icon,
+.control.has-icons-left .select.is-medium ~ .b-icon, .control.has-icons-right .input.is-medium ~ .b-icon,
+.control.has-icons-right .select.is-medium ~ .b-icon {
   font-size: 1.25rem;
 }
 
-.control.has-icons-left .input.is-large ~ .icon,
-.control.has-icons-left .select.is-large ~ .icon, .control.has-icons-right .input.is-large ~ .icon,
-.control.has-icons-right .select.is-large ~ .icon {
+.control.has-icons-left .input.is-large ~ .b-icon,
+.control.has-icons-left .select.is-large ~ .b-icon, .control.has-icons-right .input.is-large ~ .b-icon,
+.control.has-icons-right .select.is-large ~ .b-icon {
   font-size: 1.5rem;
 }
 
-.control.has-icons-left .icon, .control.has-icons-right .icon {
+.control.has-icons-left .b-icon, .control.has-icons-right .b-icon {
   color: #dbdbdb;
   height: 2.5em;
   pointer-events: none;
@@ -5538,7 +5538,7 @@ fieldset[disabled] .select select:hover {
   padding-left: 2.5em;
 }
 
-.control.has-icons-left .icon.is-left {
+.control.has-icons-left .b-icon.is-left {
   left: 0;
 }
 
@@ -5547,7 +5547,7 @@ fieldset[disabled] .select select:hover {
   padding-right: 2.5em;
 }
 
-.control.has-icons-right .icon.is-right {
+.control.has-icons-right .b-icon.is-right {
   right: 0;
 }
 
@@ -5615,11 +5615,11 @@ fieldset[disabled] .select select:hover {
   justify-content: flex-start;
 }
 
-.breadcrumb .icon:first-child {
+.breadcrumb .b-icon:first-child {
   margin-right: 0.5em;
 }
 
-.breadcrumb .icon:last-child {
+.breadcrumb .b-icon:last-child {
   margin-left: 0.5em;
 }
 
@@ -7139,8 +7139,8 @@ body.has-navbar-fixed-bottom {
   position: relative;
 }
 
-.b-navbar-item .icon:only-child,
-.b-navbar-link .icon:only-child {
+.b-navbar-item .b-icon:only-child,
+.b-navbar-link .b-icon:only-child {
   margin-left: -0.25rem;
   margin-right: -0.25rem;
 }
@@ -7939,11 +7939,11 @@ label.b-panel-block:hover {
   padding-left: 0.75em;
 }
 
-.tabs .icon:first-child {
+.tabs .b-icon:first-child {
   margin-right: 0.5em;
 }
 
-.tabs .icon:last-child {
+.tabs .b-icon:last-child {
   margin-left: 0.5em;
 }
 
