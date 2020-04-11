@@ -15,5 +15,6 @@ Here I've tried to avoid conflicts by uing prefix<i>(es)</i> <i><strong>`"b-"`</
   - `.panel-*`            to <strong>`.b-panel-*`</strong>
   - `.section-*`          to <strong>`.b-section-*`</strong>
   - `.table-*`            to <strong>`.b-table-*`</strong>
+  
 # License
 MIT License | github.com/AfzalSabbir/bulma.css
