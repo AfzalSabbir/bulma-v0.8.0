@@ -9,6 +9,7 @@ Here I've tried to avoid conflicts by uing prefix<i>(es)</i> <i><strong>`"b-"`</
   - `.container-*`        to <strong>`.b-container-*`</strong>
   - `.dropdown-*`         to <strong>`.b-dropdown-*`</strong>
   - `.footer-*`           to <strong>`.b-footer-*`</strong>
+  - `.icon-*`             to <strong>`.b-icon-*`</strong>
   - `.modal-*`            to <strong>`.b-modal-*`</strong>
   - `.navbar-*`           to <strong>`.b-navbar-*`</strong>
   - `.pagination-*`       to <strong>`.b-pagination-*`</strong>
