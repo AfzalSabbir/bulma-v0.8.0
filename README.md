@@ -1,7 +1,7 @@
 # Description
 <i><strong>Bulma</strong></i> conflicts with some <i><strong>Bootstrap</strong></i> classes.<br>
-Here I've tried to avoid conflicts by uing prefix<i>(es)</i> <i><strong>`"b-"`</strong></i> where <strong>Bootstrap</strong> is getting the priority<br>
-<strong>bulma.io v0.8.0 | MIT License | <a href="https://github.com/jgthms/bulma"><i>github.com/jgthms/bulma</i></a></strong>
+Here I've tried to avoid conflicts by uing prefix<i>(es)</i> <i><strong>`"b-"`</strong></i> where <strong>Bootstrap</strong> is getting the priority<br><br>
+bulma.io v0.8.0 | MIT License | <a href="https://github.com/jgthms/bulma"><i>github.com/jgthms/bulma</i></a>
 # Changes
 - Disabled styles with `html tag`
 - Prefix `b-`
