@@ -5230,26 +5230,26 @@ fieldset[disabled] .select select:hover {
   font-size: 14px;
 }
 
-.label {
+.b-label {
   color: #363636;
   display: block;
   font-size: 1rem;
   font-weight: 700;
 }
 
-.label:not(:last-child) {
+.b-label:not(:last-child) {
   margin-bottom: 0.5em;
 }
 
-.label.is-small {
+.b-label.is-small {
   font-size: 0.75rem;
 }
 
-.label.is-medium {
+.b-label.is-medium {
   font-size: 1.25rem;
 }
 
-.label.is-large {
+.b-label.is-large {
   font-size: 1.5rem;
 }
 
@@ -5431,7 +5431,7 @@ fieldset[disabled] .select select:hover {
   }
 }
 
-.field-label .label {
+.field-label .b-label {
   font-size: inherit;
 }
 

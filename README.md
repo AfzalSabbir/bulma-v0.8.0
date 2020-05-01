@@ -11,6 +11,7 @@ Here I've tried to avoid conflicts by uing prefix<i>(es)</i> <i><strong>`"b-"`</
   - `.dropdown-*`         to <strong>`.b-dropdown-*`</strong>
   - `.footer-*`           to <strong>`.b-footer-*`</strong>
   - `.icon-*`             to <strong>`.b-icon-*`</strong>
+  - `.label-*`            to <strong>`.b-label-*`</strong>
   - `.modal-*`            to <strong>`.b-modal-*`</strong>
   - `.navbar-*`           to <strong>`.b-navbar-*`</strong>
   - `.pagination-*`       to <strong>`.b-pagination-*`</strong>
